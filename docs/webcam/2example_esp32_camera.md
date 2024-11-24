@@ -1,5 +1,13 @@
 # 2 ESP 32 CameraWebServer (Stream)
 
+## เตรียม Driver CH340C USB to serial chip
+
+![](../assets/images/ESP32-CAM-MB-Micro-USB-Programme.jpg)
+
+[https://www.arduined.eu/files/windows10/CH341SER.zip](https://www.arduined.eu/files/windows10/CH341SER.zip)
+
+![](../assets/images/CH340-windows-10-driver.jpg)
+
 ## Select Code from example
 
 ![](../assets/images/esp32_example_camera.png)
@@ -9,6 +17,27 @@
 Upload code:
 
 ![](../assets/images/esp32_example_camera_3.png)
+
+## สามารถเลือก Ai Thinker ESP32-CAM
+
+![](../assets/images/esp32cam-spec.png)
+
+- ผลจากการรัน code esp32-workshop-1.ino
+
+```
+ESP32 Chip model = ESP32-D0WD-V3 Rev 3
+This chip has 2 cores
+Chip ID: 11179668
+ESP32 Information:
+Chip Model: ESP32-D0WD-V3
+Chip Revision: 3
+Chip ID: 11179668
+Flash Size: 4 MB
+PSRAM Size: 3 MB
+Free RAM: 0 MB
+```
+
+## ทดสอบ
 
 ```c title="cameraWebServer.ino"  linenums="1"
 #include "esp_camera.h"
