@@ -221,10 +221,28 @@ void loop() {
 
 ![](../assets/images/edge_impulse_30.png)
 
-## add zip file to arduio
+## add zip file to Arduino
 
-## exaple
+![](../assets/images/edge_impulse_32.png)
+
+## เลือกไฟล์ ที่ได้ จาก edge impluse
+
+![](../assets/images/edge_impulse_33.png)
+
+## up load สำเร็จ
+
+![](../assets/images/edge_impulse_34.png)
 
 ## open file esp32_camera
 
+![](../assets/images/edge_impulse_34.png)
+
 - แก้ ไฟล์
+
+![](../assets/images/edge_impulse_36.png)
+
+- save file esp32_camera_impulse.ino
+
+[Download Code EdgeImpulse.zip](https://drive.google.com/file/d/1EVW4sC0k2A-5q35HiXBrqIAyz6mGf8YV/view?usp=sharing)
+
+![](../assets/images/edge_impulse_37.png)
